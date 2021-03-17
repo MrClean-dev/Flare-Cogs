@@ -5,7 +5,7 @@ work = [
     "You work as a software developer and earn {amount}",
     "You work as a behaviour consultant and earn {amount}",
     "You are paid {amount} to clean up hair off the ground at your local hairdressers.",
-    "You work as a Red-DiscordBot developer and earn {amount}.",
+    "You work as a depressed bot developer and earn {amount}.",
     "You work for a private military company, earning {amount}",
     "You work as a courier for the day. You are paid {amount}",
     "You did a 30 minute workout. While jogging you found {amount} on the floor.",
