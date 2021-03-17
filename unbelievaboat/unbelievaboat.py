@@ -24,12 +24,12 @@ class CompositeMetaClass(type(commands.Cog), type(ABC)):
 
 
 class Unbelievaboat(Wallet, Roulette, SettingsMixin, commands.Cog, metaclass=CompositeMetaClass):
-    """Unbelievaboat Commands."""
+    """Economy Commands."""
 
-    __version__ = "0.5.3"
+    __version__ = "0.0.0"
 
     def format_help_for_context(self, ctx):
-        """Thanks Sinbad."""
+        """Thanks."""
         pre_processed = super().format_help_for_context(ctx)
         return f"{pre_processed}\nCog Version: {self.__version__}"
 
